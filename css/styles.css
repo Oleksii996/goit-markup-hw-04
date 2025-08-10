@@ -278,7 +278,7 @@ img {
 .circle-icon-our-team {
   width: 40px;
   height: 40px;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -333,7 +333,10 @@ img {
 .footer .container {
   width: 1158px;
   margin: 0 auto;
-  background-color: #e54d80;
+  display: flex;
+}
+.webstudio-footer {
+  margin-right: 120px;
 }
 .website-logo-footer {
   font-family: "Raleway", sans-serif;
@@ -354,5 +357,35 @@ img {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+.social-media-footer {
+  width: 208px;
+}
+
+.social-media-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.field-icon-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.circle-icon-footer {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialmedia-footer {
+  fill: #e7e9fc;
 }
 /* #endregion Footer */
